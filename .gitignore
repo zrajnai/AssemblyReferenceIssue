@@ -1,0 +1,63 @@
+# 
+#  Visual Studio
+# -----------------------------------------------------------------------------------------------------------
+
+*.suo
+*.user
+**/.vs/**
+
+# 
+# Rider
+# -----------------------------------------------------------------------------------------------------------
+.idea/**
+
+# 
+#  ReSharper 
+# -----------------------------------------------------------------------------------------------------------
+
+*.DotSettings
+_ReSharper.*
+
+# Primary ReSharper settings
+!Cognex.Designer.InSight.sln.DotSettings
+
+#  Include .DotSettings for HMI (TypeScript) projects
+
+!src/Cognex.Designer.InSight.WebHMI/Cognex.Designer.InSight.WebHMI.csproj.DotSettings
+!tests/Cognex.Designer.InSight.WebHMI.Tests/Cognex.Designer.InSight.WebHMI.Tests.csproj.DotSettings
+
+
+# 
+#  Further excludes
+# -----------------------------------------------------------------------------------------------------------
+
+bin
+obj
+output
+build/
+packages
+tools/TestResult.xml
+src/UpgradeLog.htm
+tests/TestResults/
+src/Cognex.Designer.sln.GhostDoc.user.dic
+src/Cognex.Designer.sln.GhostDoc.xml
+tools/.idea/workspace.xml
+tools/.idea/vcs.xml
+src/TestResults/
+tests/UITests/TestResults/
+tools/__pycache__/
+src/UpgradeLog*.htm
+*.orig
+src/Cognex.Designer.WebHMI/output/
+src/packages/
+tests/Systests/packages/
+src/packages/
+installer/temp/
+bin/
+src/.vs/
+StringResources.cs
+tests/TestEnvironment.json
+project.lock.json
+Cognex.Designer.InSight.VC.db
+Cognex.Designer.InSight.VC.VC.opendb
+Cognex.Designer.InSight.sdf
